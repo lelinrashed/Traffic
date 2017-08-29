@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,700');
+
+body{
+    font-family: 'Khula', sans-serif;
+    color: #999999;
+}
+
+
+
+/*========================
+Start header section
+==========================*/
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    outline: medium none;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.mainmenu ul li a:hover {
+    color: #ef476f;
+}
+a.box-button {
+    background: #ef476f none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    text-decoration: none;
+}
+.box-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.header-top {
+    padding: 10px 0;
+}
+
+
+.hero-left h1 {
+    color: #373737;
+    font-size: 40px;
+    max-width: 430px;
+}
+.hero-left p {
+    font-size: 15px;
+    padding: 15px 0 25px;
+    font-weight: 300;
+}
+input[type="url"] {
+    border: 1px solid #dedede;
+    font-size: 16px;
+    padding: 7px 10px;
+}
+input[type="submit"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #ef476f none repeat scroll 0 0;
+    border-color: #dedede #dedede #333333;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 10px;
+}
+.header-bottom {
+    padding: 100px 0;
+}
+#header-area{
+    border-bottom: 1px solid #f6f6f6;
+}
+/*================
+End of header area
+=================*/
+
+
+/*===================
+Start service section
+===================*/
+
+.section-heading h2 {
+    color: #373737;
+    font-size: 28px;
+}
+.section-heading p {
+    font-size: 15px;
+}
+.single-service {
+    border: 1px solid #f3f3f3;
+    margin: 0 0 30px;
+    padding: 30px 20px;
+    transition: 0.3s;
+}
+.service-heading h4 {
+    color: #373737;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.service-heading i {
+    font-size: 50px;
+    transition: 0.3s;
+}
+.single-service a {
+    color: #373737;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.single-service p {
+    line-height: 26px;
+    padding: 15px 0;
+}
+.section-heading {
+    margin-bottom: 100px;
+}
+
+.single-service:hover {
+    border-color: #ef476f;
+}
+.single-service:hover .service-heading i {
+    color: #ef476f;
+}
+.single-service:hover .service-heading h4 {
+    color: #ef476f;
+}
+.single-service:hover a {
+    color: #ef476f;
+}
+
+.service-bottom-left h2 {
+    color: #373737;
+    font-size: 28px;
+    max-width: 440px;
+}
+.service-bottom-left p {
+    font-size: 15px;
+    max-width: 430px;
+    padding: 20px 0;
+}
+.box-btn {
+    background: #ef476f none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 20px;
+}
+.service-bottom-left {
+    padding: 20px 0;
+}
+section#service {
+    padding: 100px 0;
+}
+.service-bottom {
+    margin-top: 80px;
+}
+/*====================
+End of service section
+=====================*/
